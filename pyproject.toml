@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ifcbgp"
+version = "0.1.0"
+description = ""
+authors = ["John San Soucie <jsansoucie@whoi.edu>"]
+maintainers = ["John San Soucie <jsansoucie@whoi.edu>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/san-soucie/ifcbgp"
+repository = "https://github.com/san-soucie/ifcbgp"
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Topic :: Scientific/Engineering :: Oceanography",
+]
+keywords = ["IFCB", "Gaussian Process"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
